@@ -9,8 +9,8 @@ var binImg,bin;
 var bgImg;
 
 function preload(){
-    binImg = loadImage("Images/dustbingreen.png");
-    bgImg = loadImage("Images/th.jpg");
+    binImg = loadImage("dustbingreen.png");
+    bgImg = loadImage("th.jpg");
 }
 function setup(){
     var canvas = createCanvas(1200,600);
